@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FocusClock - A gamified focus timer app that helps you stay productive by growing virtual plants as you focus.">
-    <meta name="keywords" content="focus timer, productivity, pomodoro, focus app, plant growing, concentration, time management">
+    <meta name="description"
+        content="FocusClock - A gamified focus timer app that helps you stay productive by growing virtual plants as you focus.">
+    <meta name="keywords"
+        content="focus timer, productivity, pomodoro, focus app, plant growing, concentration, time management">
     <title>FocusClock - Stay Focused. Grow Plants. Be Productive.</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
@@ -17,38 +20,38 @@
             --accent: #10B981;
             --accent-hover: #059669;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 24px;
         }
-        
+
         /* Header */
         header {
             padding: 24px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
+
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .logo {
             display: flex;
             align-items: center;
@@ -58,11 +61,11 @@
             color: var(--text-primary);
             text-decoration: none;
         }
-        
+
         .logo-icon {
             font-size: 32px;
         }
-        
+
         nav a {
             color: var(--text-secondary);
             text-decoration: none;
@@ -70,17 +73,17 @@
             font-weight: 600;
             transition: color 0.2s;
         }
-        
+
         nav a:hover {
             color: var(--accent);
         }
-        
+
         /* Hero Section */
         .hero {
             padding: 100px 0;
             text-align: center;
         }
-        
+
         .hero h1 {
             font-size: 56px;
             font-weight: 900;
@@ -90,20 +93,20 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
+
         .hero p {
             font-size: 20px;
             color: var(--text-secondary);
             max-width: 600px;
             margin: 0 auto 40px;
         }
-        
+
         .hero-emoji {
             font-size: 80px;
             margin-bottom: 32px;
             display: block;
         }
-        
+
         .cta-button {
             display: inline-flex;
             align-items: center;
@@ -117,61 +120,61 @@
             text-decoration: none;
             transition: background 0.2s, transform 0.2s;
         }
-        
+
         .cta-button:hover {
             background: var(--accent-hover);
             transform: translateY(-2px);
         }
-        
+
         /* Features Section */
         .features {
             padding: 80px 0;
             background: var(--bg-secondary);
         }
-        
+
         .features h2 {
             text-align: center;
             font-size: 36px;
             font-weight: 800;
             margin-bottom: 60px;
         }
-        
+
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 32px;
         }
-        
+
         .feature-card {
             background: var(--bg-surface);
             padding: 32px;
             border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
+
         .feature-card .emoji {
             font-size: 40px;
             margin-bottom: 16px;
         }
-        
+
         .feature-card h3 {
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 12px;
         }
-        
+
         .feature-card p {
             color: var(--text-secondary);
             font-size: 15px;
         }
-        
+
         /* Footer */
         footer {
             padding: 60px 0;
             background: var(--bg-primary);
-            border-top: 1px solid rgba(255,255,255,0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
+
         .footer-content {
             display: flex;
             justify-content: space-between;
@@ -179,43 +182,44 @@
             flex-wrap: wrap;
             gap: 24px;
         }
-        
+
         .footer-links a {
             color: var(--text-secondary);
             text-decoration: none;
             margin-right: 24px;
             font-size: 14px;
         }
-        
+
         .footer-links a:hover {
             color: var(--accent);
         }
-        
+
         .copyright {
             color: var(--text-secondary);
             font-size: 14px;
         }
-        
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 36px;
             }
-            
+
             .hero p {
                 font-size: 16px;
             }
-            
+
             .header-content {
                 flex-direction: column;
                 gap: 16px;
             }
-            
+
             nav a {
                 margin: 0 16px;
             }
         }
     </style>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -237,7 +241,8 @@
         <div class="container">
             <span class="hero-emoji">🌱</span>
             <h1>Stay Focused. Grow Plants. Be Productive.</h1>
-            <p>FocusClock is a gamified focus timer that helps you build better habits by growing virtual plants as you concentrate on your tasks.</p>
+            <p>FocusClock is a gamified focus timer that helps you build better habits by growing virtual plants as you
+                concentrate on your tasks.</p>
             <a href="https://play.google.com/store/apps/details?id=com.focusclock.app" class="cta-button">
                 <span>📱</span>
                 Download on Google Play
@@ -252,22 +257,26 @@
                 <div class="feature-card">
                     <div class="emoji">⏱️</div>
                     <h3>Smart Focus Timer</h3>
-                    <p>Choose from preset durations (10, 25, 50 min) or set your own custom time. Start focusing with just one tap.</p>
+                    <p>Choose from preset durations (10, 25, 50 min) or set your own custom time. Start focusing with
+                        just one tap.</p>
                 </div>
                 <div class="feature-card">
                     <div class="emoji">🌿</div>
                     <h3>Growing Plants</h3>
-                    <p>Watch your virtual plant grow as you focus. Complete sessions to collect different plant species in your garden.</p>
+                    <p>Watch your virtual plant grow as you focus. Complete sessions to collect different plant species
+                        in your garden.</p>
                 </div>
                 <div class="feature-card">
                     <div class="emoji">📊</div>
                     <h3>Track Progress</h3>
-                    <p>View detailed statistics, weekly charts, streaks, and achievements to monitor your productivity journey.</p>
+                    <p>View detailed statistics, weekly charts, streaks, and achievements to monitor your productivity
+                        journey.</p>
                 </div>
                 <div class="feature-card">
                     <div class="emoji">🎵</div>
                     <h3>Ambient Sounds</h3>
-                    <p>Choose from relaxing background sounds like rain, forest, or lo-fi music to enhance your focus sessions.</p>
+                    <p>Choose from relaxing background sounds like rain, forest, or lo-fi music to enhance your focus
+                        sessions.</p>
                 </div>
                 <div class="feature-card">
                     <div class="emoji">📴</div>
@@ -291,10 +300,12 @@
                     <a href="mailto:focusclock.app@gmail.com">Contact Us</a>
                 </div>
                 <div class="copyright">
-                    © 2026 FocusClock Team. All rights reserved.
+                    <p>Created by <strong>Alp Eren Çelebi</strong></p>
+                    <p>© 2026 FocusClock. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
